@@ -1,5 +1,52 @@
-nav.menu {
+body {
+    background-color: #1F8A70 ;
+    margin: 0%;
+}
+nav {
+  
+    background-color: #181823;
+    overflow:hidden;
+}
+ nav ul {
+    list-style-type:none;
+    margin:0%;
+    padding: 0%;
+    width: 100%;
+    overflow: hidden;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    
+}
+nav li {
+   padding: 20px;
+    border-right: none;
+
+}
+li :last-child {
+    border-right: none;
+
+}
+
+nav li a {
+	display: block;
+	padding:10px 16px;
+    text-decoration: none;
+    text-align:center;
+    color: #EFF5F5;
+    margin: 20px;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+}
+nav li a:hover:not(.active) {
+	background-color: #FC7300;
+    width: auto;
+
+}
+
+img.logo {
+    width: 200px;
+    height: 200px;
+}
+h1 {
+    font-family: 'Belanosima', sans-serif;
 }
