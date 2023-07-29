@@ -23,6 +23,14 @@ h2 {
 
 
 }
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display:flex;
+    margin: 1rem;
+
+
+}
 div.texto-encima{
     position: absolute;
     top: 75%;
@@ -93,11 +101,48 @@ div.section1 {
     display: flex;
 justify-content: center;
 }
-div.section2 {
-   justify-content: end;
-   height: 100%;
+
+  .button a {
+    text-decoration: none;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+
+}  
+ul {
+    list-style: none;
+    padding: 3px;
+    margin: 2px;
+
+
 
 }
-p.s1{
-    justify-content: flex-end;
+  
+section.button {
+    display: flex;
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+  }
+div.redes {
+    width: 150px;
+    height: 200px;
+    padding: 3px;
 }
+div.contacto {
+    width: 250px;
+    height: 200px;
+    padding: 3px;
+
+}
+div.mapa{
+    width: 250px;
+    height: 200px;
+    padding:3px;
+}
+iframe {
+    width: 225px;
+    height: 125px;
+    margin:10px;
+}
+
