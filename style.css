@@ -123,14 +123,15 @@ section.button {
     width: 100%;
     margin: 1rem;
     padding: 1rem;
+    justify-content: space-around;
   }
 div.redes {
     width: 150px;
     height: 200px;
     padding: 3px;
 }
-div.contacto {
-    width: 250px;
+div.Contacto {
+    width: 200px;
     height: 200px;
     padding: 3px;
 
@@ -144,5 +145,11 @@ iframe {
     width: 225px;
     height: 125px;
     margin:10px;
+}
+a.boton {
+    font-size: 20px;
+    color: #EFF5F5;
+    background-color:#00425A ;
+    margin-left:5px;
 }
 
