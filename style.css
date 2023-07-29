@@ -146,10 +146,40 @@ iframe {
     height: 125px;
     margin:10px;
 }
-a.boton {
+a.form {
     font-size: 20px;
     color: #EFF5F5;
     background-color:#00425A ;
     margin-left:5px;
 }
 
+form {
+
+    width: 400px;
+    background-color: #00425A;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;   
+    color: #EFF5F5;
+    font-size: 20px;
+    
+}
+h4 {
+    font-family: 'Belanosima', sans-serif;
+    text-align: center;
+    font-size: 30px;
+
+}
+input.form {
+    width: 100%;
+    padding: 10px;
+    background-color: #EFF5F5;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: solid 1px #181823;
+}
+
+a.form{
+    font-size: 15px;
+}
