@@ -15,8 +15,8 @@ li.nav-item {
 h1 {
     font-family: 'Belanosima', sans-serif;
     text-align: center;
-    position: relative;
-    display: inline-block;
+    font-size: 3em;
+    
 
 }
 
@@ -42,9 +42,9 @@ h3 {
 }
 div.centrado {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 60%;
+    transform: translate(-60%, -60%);
     color: #EFF5F5;
     text-shadow:0 0 8px rgb(0, 0, 1);
     background-color: rgba(239, 245, 245, 0.4) ;
@@ -81,34 +81,51 @@ section {
     font-family: 'Poppins', sans-serif;   
     color: #EFF5F5;
     text-shadow:0 0 8px rgb(0, 0, 1);
-    padding: 2rem;
+    padding: 1rem;
    
    
 }
 p {
     font-family: 'Poppins', sans-serif;   
     color: #EFF5F5;
+    margin: 1rem;
+    text-align: justify;   
+    align-content: center;
     width: 50%;
-    margin: 2rem;
-    text-align: justify;
-    display: flex;
-  
-    
 }
 img.escuela {
-    float: right;
-    margin: 2rem;
+    margin: 1rem;
+    min-width: 40%;
+    min-height: 40%;
+    width: 50%;
+
    
 }
 img.aula {
-    float: left;
-    width: 25%;
-    margin: 2rem;
+    float: right;
+    margin: 1rem;
+    min-width: 40%;
+    min-height: 40%;
+    width: 50%;
+    
+    
+   
 
 }
 div.section1 {
+    width: 90%;
     display: flex;
-justify-content: center;
+    margin:auto;
+    
+}
+
+div.section2 {
+    width: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+  
+    margin:auto;
+    
 }
 
   .button a {
@@ -139,7 +156,7 @@ div.section4 {
     justify-content: center;
 
 }
-  
+
 section.button {
     display: flex;
     width: 100%;
@@ -208,5 +225,23 @@ input.env {
     width: 100px;
     font-family: 'Poppins', sans-serif;
 
+    
+}
+@media screen and (max-width:320px) and (min-width:0px) { 
+    div.section1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen and (max-width:320px) and (min-width:0px) {
+   div.section3,.imgs3 {
+    width: 50%;
+   
+   
+       
+     
+       
+    }
     
 }
