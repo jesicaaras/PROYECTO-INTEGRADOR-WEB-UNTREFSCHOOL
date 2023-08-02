@@ -1,53 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600;700&family=Poppins:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
-
-body {
-
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@600;700&family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap");
+* {
     margin: 0%;
-}
+    padding: 0%;
+    box-sizing: border-box;
+  }
 
+  body {
+    font-family: "Poppins", sans-serif;
+    color: #eff5f5;
+    font-weight: 300;
+    font-size: 16px;
+  }
 li.nav-item {
-    font-family: 'Poppins', sans-serif;   
-    color: #EFF5F5;
-
-
+  font-family: "Poppins", sans-serif;
+  color: #eff5f5;
 }
 h1 {
-    font-family: 'Belanosima', sans-serif;
-    text-align: center;
-    font-size: 5em;
-    
-
+  font-family: "Belanosima", sans-serif;
+  text-align: center;
+  font-size: 5em;
 }
-
- 
-
 
 h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    display: flex;
-    margin: 2rem;
-
-
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  margin: 2rem;
 }
 h3 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    display:flex;
-    margin: 1rem;
-
-
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  display: flex;
+  margin: 1rem;
 }
 div.centrado {
-    position: absolute;
-    top: 45%;
-    left: 60%;
-    transform: translate(-45%, -60%);
-    color: #EFF5F5;
-    text-shadow:0 0 8px rgb(0, 0, 1);
-    background-color: rgba(239, 245, 245, 0.4) ;
+  position: absolute;
+  top: 45%;
+  left: 60%;
+  transform: translate(-45%, -60%);
+  color: #eff5f5;
+  text-shadow: 0 0 8px rgb(0, 0, 1);
+  background-color: rgba(239, 245, 245, 0.4);
 }
 
 div.container {
@@ -55,214 +50,190 @@ div.container {
   background-image: url(IMAGENES/img-escuela1.jpg);
   background-attachment: fixed;
   padding: 0%;
-    }
-.container{
-    max-width: 100%;
-    max-height: 100%;
-    min-width: 50%;
-    min-height: 50%;
-    
+}
+.container {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 50%;
+  min-height: 50%;
 }
 div.container-fluid {
-    width: 100%;
-    padding:0%;
-
+  width: 100%;
+  padding: 0%;
 }
 ul.navbar-nav.me-auto {
-    margin:auto;
-
-
+  margin: auto;
 }
 nav.navbar.navbar-expand-md.navbar-dark.bg-dark {
-    padding: 0%;
-    width:100%
-} 
+  padding: 0%;
+  width: 100%;
+}
 section {
-    font-family: 'Poppins', sans-serif;   
-    color: #EFF5F5;
-    text-shadow:0 0 8px rgb(0, 0, 1);
-    padding: 1rem;
-   
-   
+  font-family: "Poppins", sans-serif;
+  color: #eff5f5;
+  text-shadow: 0 0 8px rgb(0, 0, 1);
+  padding: 1rem;
 }
 p {
-    font-family: 'Poppins', sans-serif;   
-    color: #EFF5F5;
-    margin: 1rem;
-    text-align: justify;   
-    align-content: center;
-    width: 50%;
+  font-family: "Poppins", sans-serif;
+  color: #eff5f5;
+  margin: 1rem;
+  text-align: justify;
+  align-content: center;
+  width: 50%;
 }
 img.escuela {
-    margin: 1rem;
-    min-width: 40%;
-    min-height: 40%;
-    width: 50%;
-
-   
+  margin: 1rem;
+  min-width: 40%;
+  min-height: 40%;
+  width: 50%;
 }
 img.aula {
-    float: right;
-    margin: 1rem;
-    min-width: 30%;
-    min-height: 30%;
-    width: 50%;
-    height:40%;
-    
-    
-   
-
+  float: right;
+  margin: 1rem;
+  min-width: 30%;
+  min-height: 30%;
+  width: 50%;
+  height: 40%;
 }
 div.section1 {
-    width: 90%;
-    display: flex;
-    margin:auto;
-    
+  width: 90%;
+  display: flex;
+  margin: auto;
 }
 
 div.section2 {
-    width: 90%;
-    display: flex;
-    flex-direction: row-reverse;
-  
-    margin:auto;
-    
+  width: 90%;
+  display: flex;
+  flex-direction: row-reverse;
+
+  margin: auto;
 }
 
-  .button a {
-    text-decoration: none;
-    font-size: 30px;
-    width: 60px;
-    height: 60px;
-
-}  
+.button a {
+  text-decoration: none;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+}
 ul {
-    list-style: none;
-    padding: 3px;
-    margin: 2px;
+  list-style: none;
+  padding: 3px;
+  margin: 2px;
 }
 div.section3 {
-    display: flex;
-    justify-content: center;
-
-
+  display: flex;
+  justify-content: center;
 }
 .imgs3 {
-    width: 200px;
-    height: 150px;
-    margin: 0 5px;
+  width: 200px;
+  height: 150px;
+  margin: 0 5px;
 }
 div.section4 {
-    display: flex;
-    justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 section.button {
-    display: flex;
-    width: 100%;
-    margin: 1rem;
-    padding: 1rem;
-    justify-content: space-around;
-  }
+  display: flex;
+  width: 100%;
+  margin: 1rem;
+  padding: 1rem;
+  justify-content: space-around;
+}
 div.redes {
-    width: 150px;
-    height: 200px;
-    padding: 3px;
+  width: 150px;
+  height: 200px;
+  padding: 3px;
 }
 div.Contacto {
-    width: 200px;
-    height: 200px;
-    padding: 3px;
-
+  width: 200px;
+  height: 200px;
+  padding: 3px;
 }
-div.mapa{
-    width: 250px;
-    height: 200px;
-    padding:3px;
+div.mapa {
+  width: 250px;
+  height: 200px;
+  padding: 3px;
 }
 iframe {
-    width: 225px;
-    height: 125px;
-    margin:10px;
+  width: 225px;
+  height: 125px;
+  margin: 10px;
 }
 
 /*estilo de formulario*/
 
 form {
-
-    width: 400px;
-    background-color: #00425A;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    font-family: 'Poppins', sans-serif;   
-    color: #EFF5F5;
-    font-size: 20px;
-    
+  width: 400px;
+  background-color: #00425a;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  font-family: "Poppins", sans-serif;
+  color: #eff5f5;
+  font-size: 20px;
 }
 h4 {
-    font-family: 'Belanosima', sans-serif;
-    text-align: center;
-    font-size: 30px;
-
+  font-family: "Belanosima", sans-serif;
+  text-align: center;
+  font-size: 30px;
 }
 input.form {
-    width: 100%;
-    padding: 10px;
-    background-color: #EFF5F5;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: solid 1px #181823;
+  width: 100%;
+  padding: 10px;
+  background-color: #eff5f5;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: solid 1px #181823;
 }
 
-a.form{
-    font-size: 15px;
-    color: #EFF5F5;
-    background-color:#00425A ;
-    margin-left:5px;
+a.form {
+  font-size: 15px;
+  color: #eff5f5;
+  background-color: #00425a;
+  margin-left: 5px;
 }
 input.env {
-    width: 100px;
-    font-family: 'Poppins', sans-serif;
-
-    
+  width: 100px;
+  font-family: "Poppins", sans-serif;
 }
-@media only screen and (max-width:320px) and (min-width:0px) { 
-    div.section1,div.section2,div.section3{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin:2rem;
-        
-        
-       
-    }
+@media only screen and (max-width: 320px) and (min-width: 0px) {
+  div.section1,
+  div.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+  }
 }
-@media only screen and (max-width:320px) and (min-width:0px){
-    div.centrado, h1   {
+@media only screen and (max-width: 320px) and (min-width: 0px) {
+  div.centrado,
+  h1 {
     font-size: 1em;
-    }
+  }
 }
-@media (max-width:320px) and (min-width:0px) {
-    img.aula,img.escuela {
-        width: 90%;
-    }
-    
+@media (max-width: 320px) and (min-width: 0px) {
+  img.aula,
+  img.escuela {
+    width: 90%;
+  }
 }
-@media  (max-width:320px)and (min-width:0px){
-    p {
-        display:contents;
-        
-       
-    
-    }
+@media (max-width: 320px) and (min-width: 0px) {
+  p {
+    display: contents;
+  }
 }
-@media only screen and  (max-width:320px) and (min-width:0px){
-    div.section3 {
-        width: auto;
-        display:grid;
-        grid-auto-flow: row;
-    
+@media only screen and (max-width: 320px) and (min-width: 0px) {
+  div.section3 {
+    width: auto;
+    display: grid;
+  }
+}
+@media (max-width:320px){
+    section.button {
+        display: flex;
+        flex-direction: column;
     }
 }
