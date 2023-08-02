@@ -37,9 +37,10 @@ h3 {
 }
 div.centrado {
   position: absolute;
-  top: 45%;
-  left: 60%;
+  top: 75%;
+  left: 50%;
   transform: translate(-45%, -60%);
+ 
   color: #eff5f5;
   text-shadow: 0 0 8px rgb(0, 0, 1);
   background-color: rgba(239, 245, 245, 0.4);
@@ -129,6 +130,8 @@ div.section3 {
   width: 200px;
   height: 150px;
   margin: 0 5px;
+  box-shadow: 0 4px 8px 0 rgba(0 0, 0, 0.2), 0 6px 20px 0 rgba(0 0, 0, 0.19);
+  border-radius: 12px;
 }
 div.section4 {
   display: flex;
@@ -199,6 +202,7 @@ input.env {
   width: 100px;
   font-family: "Poppins", sans-serif;
 }
+/*estilos media query*/
 @media only screen and (max-width: 320px) and (min-width: 0px) {
   div.section1,
   div.section2 {
@@ -220,6 +224,7 @@ input.env {
     width: 90%;
   }
 }
+
 @media (max-width: 320px) and (min-width: 0px) {
   p {
     display: contents;
@@ -229,11 +234,39 @@ input.env {
   div.section3 {
     width: auto;
     display: grid;
-  }
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
+ }
 }
 @media (max-width:320px){
     section.button {
         display: flex;
         flex-direction: column;
+    }
+}
+@media (max-width:768px){
+    div.centrado {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        
+    }
+}
+@media (max-width:320px){
+    div.centrado {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size:2em;
+        
+    }
+}
+@media (max-width:320px){
+    .imgs3 {
+       width: 140px;
+       height: 140px;
+        
     }
 }
