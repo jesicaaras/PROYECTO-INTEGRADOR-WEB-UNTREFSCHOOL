@@ -97,13 +97,14 @@ img.aula {
   width: 50%;
   height: 40%;
 }
-div.section1 {
+article.section1 {
   width: 90%;
   display: flex;
+  flex-direction: row;
   margin: auto;
 }
 
-div.section2 {
+article.section2 {
   width: 90%;
   display: flex;
   flex-direction: row-reverse;
@@ -122,7 +123,7 @@ ul {
   padding: 3px;
   margin: 2px;
 }
-div.section3 {
+article.section3 {
   display: flex;
   justify-content: center;
 }
@@ -133,7 +134,7 @@ div.section3 {
   box-shadow: 0 4px 8px 0 rgba(0 0, 0, 0.2), 0 6px 20px 0 rgba(0 0, 0, 0.19);
   border-radius: 12px;
 }
-div.section4 {
+article.section4 {
   display: flex;
   justify-content: center;
 }
@@ -204,8 +205,8 @@ input.env {
 }
 /*estilos media query*/
 @media only screen and (max-width: 320px) and (min-width: 0px) {
-  div.section1,
-  div.section2 {
+  article.section1,
+  article.section2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -231,7 +232,7 @@ input.env {
   }
 }
 @media only screen and (max-width: 320px) and (min-width: 0px) {
-  div.section3 {
+  article.section3 {
     width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
